@@ -12,6 +12,8 @@ function App() {
  const[result,setResult]=useState("")
 
  function handleRoast(){
+  setLoading(true);
+  
   
  }
 

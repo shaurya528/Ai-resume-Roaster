@@ -1,53 +1,64 @@
 # Resume Roaster 🔥
 
-Resume Roaster is a web-based project where users will be able to upload their resume and get feedback / suggestions to improve it.  
-This repository currently contains **only the UI layout** of the project.
+Resume Roaster is a web-based application that helps users analyze and improve their resumes using AI-powered feedback.
 
-The backend logic and API integration will be added in upcoming updates.
+This project is being developed step by step, with each milestone pushed to GitHub.
 
 ---
 
 ## 🚀 Current Status
 
 ✅ UI Layout Completed  
+✅ Prompt Builder Implemented  
 ❌ API Integration (Pending)  
 ❌ Resume Analysis Logic (Pending)
 
-This project is under active development, and updates are pushed step by step.
+---
+
+## 🧠 What's New in This Commit
+
+### Prompt Builder (Completed)
+- Dynamic prompt generation based on:
+  - Resume content
+  - Selected mode (HR / Technical / etc.)
+- Structured prompt ready to be sent to an AI API
+- Clean separation of UI and prompt logic
+
+This prompt will be used in upcoming commits to connect with an AI backend.
 
 ---
 
 ## 🛠️ Tech Stack Used
 
-- React.js
+- Next.js / React.js
 - Tailwind CSS
-- HTML5
-- CSS3
 - JavaScript (ES6+)
 
 ---
 
-## 🎨 Features Implemented (UI Only)
+## ✨ Features Implemented
 
-- Responsive layout
-- Resume upload section (UI)
-- Clean and modern design
-- User-friendly interface
+- Responsive UI layout
+- Resume input section
+- Mode selector (HR / other modes)
+- Prompt builder logic for AI interaction
 
 ---
 
-## 📌 Future Plans
+## 📌 Upcoming Features
 
-- Resume upload functionality
-- API integration for resume analysis
-- AI-based resume feedback
-- Score and improvement suggestions
+- API integration (OpenAI / other LLM)
+- Resume scoring and feedback
+- Suggestions for improvement
+- Downloadable report
 - Authentication (optional)
 
 ---
 
-## 📂 How to Run Locally
+## 🧪 Run Locally
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/resume-roaster.git
+```bash
+git clone https://github.com/your-username/resume-roaster.git
+cd resume-roaster
+npm install
+npm run dev
