@@ -3,6 +3,8 @@ import Resumeentry from "./component/Resumeentry"
 import ModeSelector from "./component/SelectMode"
 import Action from "./component/ActionButtom"
 import Result from "./component/Result"
+import PromptBuilder from "./component/Utils/PromptBuilder"
+import { roastResume } from "./component/Services/AIservices"
 
 
 function App() {
@@ -11,8 +13,12 @@ function App() {
  const[loading,setLoading]=useState(false)
  const[result,setResult]=useState("")
 
- function handleRoast(){
+  function handleRoast(){
   setLoading(true);
+    const response =  roastResume(mode);
+   setResult(response);
+ 
+  
   
   
  }

@@ -1,47 +1,22 @@
-# Resume Roaster 🔥
+# 🔥 AI Resume Roaster
 
-Resume Roaster is a web-based application that helps users analyze and improve their resumes using AI-powered feedback.
+A fun and useful React app that roasts your resume and
+suggests improvements in different tones.
 
-This project is being developed step by step, with each milestone pushed to GitHub.
+## Features
+- Brutal / Soft / HR-friendly modes
+- Copy feedback to clipboard
+- Clean UI with Tailwind
+- Pluggable AI engine
 
----
-
-## 🚀 Current Status
-
-✅ UI Layout Completed  
-✅ Prompt Builder Implemented  
-❌ API Integration (Pending)  
-❌ Resume Analysis Logic (Pending)
-
----
-
-## 🧠 What's New in This Commit
-
-### Prompt Builder (Completed)
-- Dynamic prompt generation based on:
-  - Resume content
-  - Selected mode (HR / Technical / etc.)
-- Structured prompt ready to be sent to an AI API
-- Clean separation of UI and prompt logic
-
-This prompt will be used in upcoming commits to connect with an AI backend.
-
----
-
-## 🛠️ Tech Stack Used
-
-- Next.js / React.js
+## Tech Stack
+- React
 - Tailwind CSS
-- JavaScript (ES6+)
 
----
-
-## ✨ Features Implemented
-
-- Responsive UI layout
-- Resume input section
-- Mode selector (HR / other modes)
-- Prompt builder logic for AI interaction
+## AI Note
+This demo uses a mock AI engine for frontend stability.
+The architecture supports easy integration with
+OpenAI / OpenRouter / backend APIs.
 
 ---
 
